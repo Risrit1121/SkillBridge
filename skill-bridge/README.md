@@ -10,7 +10,7 @@ SkillBridge analyzes a candidate's resume against a job description, identifies 
 - **Scenario Chosen:** Skill-Bridge Career Navigator
 - **Estimated Time Spent:** 5-6 hours
 
-- **Youtube Link:**  https://www.youtube.com/watch?v=x9zWJJULF9g
+- **Youtube Link:**  https://youtu.be/LzN6YH8CZXE
 ---
 
 ## Quick Start
