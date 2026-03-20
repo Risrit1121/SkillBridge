@@ -8,7 +8,7 @@ SkillBridge analyzes a candidate's resume against a job description, identifies 
 
 - **Candidate Name:** Rishi Cheekatla
 - **Scenario Chosen:** Skill-Bridge Career Navigator
-- **Estimated Time Spent:** 5 hours
+- **Estimated Time Spent:** 5-6 hours
 
 - **Youtube Link:**  https://www.youtube.com/watch?v=x9zWJJULF9g
 ---
@@ -80,7 +80,7 @@ Job seekers struggle to understand exactly which skills they're missing for a ta
 
 ---
 
-## ✅ Minimum Requirements Compliance
+## Minimum Requirements Compliance
 
 ### 1. Core End-to-End Flow (Create + View + Update + Search)
 
@@ -166,7 +166,7 @@ cp .env.example .env
 |---|---|
 | `OPENAI_API_KEY` | OpenAI API key |
 | `ANTHROPIC_API_KEY` | Anthropic (Claude) API key |
-| `AI_PROVIDER` | `openai` \| `anthropic` \| `fallback` |
+| `AI_PROVIDER` | `openai` \| `anthropic` \|`Ollama` \| `fallback` |
 | `MODEL_NAME` | e.g. `gpt-4o-mini`, `claude-3-haiku-20240307` |
 
 > If no API key is set, the app automatically uses rule-based fallback logic — no AI required.
