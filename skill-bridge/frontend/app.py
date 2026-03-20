@@ -133,11 +133,15 @@ with tab1:
 
                 with st.spinner(f"Analyzing against {len(jds)} JDs..."):
                     try:
+                        jd_text = "\n\n".join(
+                            f"{j['title']} at {j['company']}: {j['description']}"
+                            for j in jds
+                        )
                         resp = requests.post(
                             f"{API_BASE}/analyze",
                             json={
                                 "resume_text": resume,
-                                "job_description": f"Aggregated from {len(jds)} JDs for {target_role}.",
+                                "job_description": jd_text,
                                 "required_skills": all_skills,
                                 "target_role": target_role,
                             },
@@ -388,16 +392,12 @@ with tab2:
 # ── Tab 3: Roadmap ────────────────────────────────────────────────────────────
 with tab3:
     st.subheader("Learning Roadmap")
-    role = st.selectbox(
-        "Target Role",
-        ROLES,
-        key="rm_role",
-        index=(
-            ROLES.index(st.session_state.get("target_role", "Software Engineer"))
-            if st.session_state.get("target_role") in ROLES
-            else 0
-        ),
-    )
+    role = st.session_state.get("target_role", None)
+    if role:
+        st.info(f"🎯 Generating roadmap for: **{role}**")
+    else:
+        role = st.selectbox("Target Role", ROLES)
+
     missing_input = st.text_input(
         "Missing Skills (auto-filled from Gap Analysis)",
         value=", ".join(st.session_state.get("missing_skills", [])),
