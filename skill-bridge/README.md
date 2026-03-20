@@ -4,6 +4,75 @@ SkillBridge analyzes a candidate's resume against a job description, identifies 
 
 ---
 
+## Candidate Info
+
+- **Candidate Name:** Rishi Cheekatla
+- **Scenario Chosen:** Skill-Bridge Career Navigator
+- **Estimated Time Spent:** 5 hours
+
+---
+
+## Quick Start
+
+### Prerequisites
+- Python 3.11+
+- An API key from at least one of: OpenRouter, Gemini, Anthropic,Ollama, OpenAI (optional — app works without one via fallback)
+
+### Run Commands
+
+```bash
+git clone <repo-url>
+cd skill-bridge
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env   # add your API key(s)
+
+# Terminal 1 — Backend
+uvicorn backend.main:app --reload
+
+# Terminal 2 — Frontend
+streamlit run frontend/app.py
+```
+
+### Test Commands
+
+```bash
+pytest backend/tests/ -v
+```
+
+---
+
+## AI Disclosure
+
+- **Did you use an AI assistant (Copilot, ChatGPT, etc.)?** Yes
+- **How did you verify the suggestions?** Every suggestion was reviewed manually — I read through the generated code, ran it locally, checked edge cases, and tested the fallback behavior explicitly. I also verified that the AI prompt returned consistent structured JSON before accepting the implementation.
+- **One example of a suggestion I rejected or changed:** The AI initially suggested using a single OpenAI client for all providers. I changed this to a multi-provider `ai_client.py` that supports OpenRouter, Gemini, and Anthropic with a clean fallback chain — because relying on a single provider is a single point of failure.
+
+---
+
+## Tradeoffs & Prioritization
+
+### What I cut to stay within the 4–6 hour limit
+- No user authentication or session persistence (stateless API only)
+- No free-text JD input — users select a target role and the app aggregates skills from the synthetic JD dataset instead
+- No real-time job board integration (LinkedIn/Indeed) — used a curated synthetic dataset
+- Streamlit instead of React — faster to build, less customizable
+
+### What I'd build next with more time
+- Free-text JD paste input so users can analyze against any real job posting
+- PostgreSQL for saving analyses and tracking skill progress over time
+- React frontend for richer, more responsive UI
+- Integration with live job APIs with proper rate limiting
+- Resume scoring history and comparison across multiple roles
+
+### Known Limitations
+- JD input is role-based only — no free-text job description paste in the UI; the AI benchmarks against aggregated skills from the synthetic dataset
+- Synthetic job data (20 JDs) is limited in breadth compared to real job boards
+- Streamlit rerenders the full page on every interaction, which can feel slow on AI responses
+- No persistent storage — all analysis results are lost on page refresh
+
+---
+
 ## Problem Statement
 
 Job seekers struggle to understand exactly which skills they're missing for a target role. SkillBridge bridges that gap with AI-powered analysis and actionable learning paths.
