@@ -1,0 +1,35 @@
+Alex Rivera
+alex.rivera@email.com | github.com/alexrivera
+
+SUMMARY
+Marketing professional with 5 years of experience transitioning into data analytics and software development.
+Strong analytical mindset, proficient in Python and SQL after completing a 6-month bootcamp.
+
+EDUCATION
+Data Science Bootcamp — CodeAcademy Pro, 2023
+B.A. Marketing — City College, 2018
+
+SKILLS
+Languages: Python, SQL, R (basic)
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib
+Tools: Tableau, Power BI, Excel, Git
+Databases: PostgreSQL, MySQL
+
+PROJECTS
+Customer Churn Prediction (Python, Scikit-learn)
+- Built a classification model achieving 84% accuracy
+- Visualized results with Matplotlib and Tableau dashboard
+
+Sales Data Pipeline (Python, PostgreSQL, Airflow)
+- Automated daily ETL pipeline pulling from CSV sources into PostgreSQL
+- Scheduled with Apache Airflow
+
+EXPERIENCE
+Marketing Analyst — BrandCo (2018–2023)
+- Led data-driven campaigns using Excel and Tableau
+- Managed cross-functional teams and presented insights to C-suite (Leadership, Communication)
+- Coordinated projects using Agile methodology
+
+CERTIFICATIONS
+Google Data Analytics Certificate (2023)
+Tableau Desktop Specialist (2022)

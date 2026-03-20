@@ -1,0 +1,10 @@
+{
+  "programming_languages": ["Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust", "Ruby", "Swift", "Kotlin", "PHP", "Scala", "R"],
+  "web_frontend": ["React", "Vue", "Angular", "HTML", "CSS", "Tailwind", "Next.js", "Svelte", "Redux", "GraphQL"],
+  "web_backend": ["FastAPI", "Django", "Flask", "Node.js", "Express", "Spring Boot", "Rails", "REST API", "gRPC"],
+  "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite", "Elasticsearch", "DynamoDB", "Cassandra"],
+  "cloud_devops": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Terraform", "CI/CD", "GitHub Actions", "Jenkins", "Ansible"],
+  "data_ml": ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Keras", "Spark", "Airflow", "dbt", "Tableau", "Power BI"],
+  "security": ["Penetration Testing", "OWASP", "SIEM", "Wireshark", "Nmap", "Metasploit", "Burp Suite", "IAM", "Zero Trust", "SOC"],
+  "soft_skills": ["Communication", "Leadership", "Agile", "Scrum", "Problem Solving", "Teamwork", "Project Management"]
+}

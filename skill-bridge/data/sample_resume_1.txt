@@ -1,0 +1,30 @@
+Jane Doe
+jane.doe@email.com | github.com/janedoe | linkedin.com/in/janedoe
+
+EDUCATION
+B.S. Computer Science — State University, May 2024
+GPA: 3.7 | Relevant Coursework: Data Structures, Algorithms, Databases, OS, Networks
+
+SKILLS
+Languages: Python, JavaScript, Java, C++
+Web: HTML, CSS, React (basic), Flask
+Databases: MySQL, SQLite
+Tools: Git, Linux, VS Code
+
+PROJECTS
+Personal Budget Tracker (Python, Flask, SQLite)
+- Built a REST API backend with Flask and a simple HTML/CSS frontend
+- Deployed locally with Docker
+
+Campus Event App (JavaScript, React, Node.js)
+- Developed a full-stack web app for campus event discovery
+- Used MongoDB for data storage and REST API for communication
+
+EXPERIENCE
+Software Engineering Intern — LocalTech Co. (Summer 2023)
+- Wrote Python scripts to automate data processing tasks
+- Assisted in debugging a Django web application
+- Participated in Agile/Scrum ceremonies
+
+CERTIFICATIONS
+AWS Cloud Practitioner (in progress)

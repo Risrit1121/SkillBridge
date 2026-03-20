@@ -1,0 +1,162 @@
+[
+  {
+    "id": "jd001",
+    "title": "Backend Python Engineer",
+    "company": "TechCorp",
+    "description": "Build scalable REST APIs using FastAPI and PostgreSQL. Deploy on AWS with Docker and CI/CD pipelines.",
+    "required_skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS", "REST API"],
+    "category": "backend"
+  },
+  {
+    "id": "jd002",
+    "title": "Frontend React Developer",
+    "company": "WebWorks",
+    "description": "Develop responsive UIs with React and TypeScript. Integrate GraphQL APIs and manage state with Redux.",
+    "required_skills": ["React", "TypeScript", "GraphQL", "Redux", "CSS", "HTML"],
+    "category": "frontend"
+  },
+  {
+    "id": "jd003",
+    "title": "Full Stack Engineer",
+    "company": "StartupXYZ",
+    "description": "Own features end-to-end using Node.js, React, and MongoDB. Experience with Docker and GitHub Actions required.",
+    "required_skills": ["Node.js", "React", "MongoDB", "Docker", "GitHub Actions", "JavaScript"],
+    "category": "fullstack"
+  },
+  {
+    "id": "jd004",
+    "title": "Data Engineer",
+    "company": "DataFlow Inc",
+    "description": "Build ETL pipelines with Apache Spark and Airflow. Store data in PostgreSQL and expose via REST APIs.",
+    "required_skills": ["Python", "Spark", "Airflow", "PostgreSQL", "dbt", "AWS"],
+    "category": "data"
+  },
+  {
+    "id": "jd005",
+    "title": "ML Engineer",
+    "company": "AI Labs",
+    "description": "Train and deploy ML models using PyTorch and Scikit-learn. Serve models via FastAPI on Kubernetes.",
+    "required_skills": ["Python", "PyTorch", "Scikit-learn", "FastAPI", "Kubernetes", "Docker"],
+    "category": "ml"
+  },
+  {
+    "id": "jd006",
+    "title": "DevOps Engineer",
+    "company": "CloudOps",
+    "description": "Manage infrastructure as code with Terraform. Orchestrate containers on Kubernetes across AWS and GCP.",
+    "required_skills": ["Terraform", "Kubernetes", "Docker", "AWS", "GCP", "CI/CD", "Ansible"],
+    "category": "devops"
+  },
+  {
+    "id": "jd007",
+    "title": "Security Analyst",
+    "company": "SecureNet",
+    "description": "Monitor SIEM dashboards, conduct penetration testing, and implement Zero Trust architecture.",
+    "required_skills": ["SIEM", "Penetration Testing", "OWASP", "Wireshark", "Nmap", "Zero Trust"],
+    "category": "security"
+  },
+  {
+    "id": "jd008",
+    "title": "iOS Developer",
+    "company": "MobileFirst",
+    "description": "Build native iOS apps with Swift and SwiftUI. Integrate REST APIs and publish to the App Store.",
+    "required_skills": ["Swift", "REST API", "Agile", "Problem Solving"],
+    "category": "mobile"
+  },
+  {
+    "id": "jd009",
+    "title": "Data Analyst",
+    "company": "Insights Co",
+    "description": "Analyze business data using SQL, Python, and Tableau. Build dashboards and present findings to stakeholders.",
+    "required_skills": ["SQL", "Python", "Tableau", "Pandas", "Communication"],
+    "category": "data"
+  },
+  {
+    "id": "jd010",
+    "title": "Cloud Architect",
+    "company": "CloudScale",
+    "description": "Design multi-region AWS architectures. Define IAM policies and lead cloud migration projects.",
+    "required_skills": ["AWS", "Terraform", "IAM", "Kubernetes", "Leadership", "Project Management"],
+    "category": "cloud"
+  },
+  {
+    "id": "jd011",
+    "title": "Django Backend Developer",
+    "company": "WebSolutions",
+    "description": "Build web applications with Django and PostgreSQL. Implement REST APIs and write unit tests.",
+    "required_skills": ["Python", "Django", "PostgreSQL", "REST API", "Docker"],
+    "category": "backend"
+  },
+  {
+    "id": "jd012",
+    "title": "React Native Developer",
+    "company": "CrossPlatform",
+    "description": "Develop cross-platform mobile apps with React Native and TypeScript.",
+    "required_skills": ["React", "TypeScript", "JavaScript", "REST API"],
+    "category": "mobile"
+  },
+  {
+    "id": "jd013",
+    "title": "Site Reliability Engineer",
+    "company": "ReliableOps",
+    "description": "Ensure system reliability with Kubernetes, Prometheus, and automated CI/CD pipelines on AWS.",
+    "required_skills": ["Kubernetes", "Docker", "AWS", "CI/CD", "Python", "Ansible"],
+    "category": "devops"
+  },
+  {
+    "id": "jd014",
+    "title": "NLP Engineer",
+    "company": "LangTech",
+    "description": "Build NLP pipelines using PyTorch and Hugging Face. Deploy models as FastAPI microservices.",
+    "required_skills": ["Python", "PyTorch", "FastAPI", "Docker", "Kubernetes"],
+    "category": "ml"
+  },
+  {
+    "id": "jd015",
+    "title": "Blockchain Developer",
+    "company": "ChainWorks",
+    "description": "Develop smart contracts in Solidity and build dApps with React and Web3.js.",
+    "required_skills": ["JavaScript", "React", "TypeScript", "REST API"],
+    "category": "fullstack"
+  },
+  {
+    "id": "jd016",
+    "title": "Java Backend Engineer",
+    "company": "EnterpriseApps",
+    "description": "Build microservices with Spring Boot and deploy on AWS. Use PostgreSQL and Redis for data storage.",
+    "required_skills": ["Java", "Spring Boot", "PostgreSQL", "Redis", "Docker", "AWS"],
+    "category": "backend"
+  },
+  {
+    "id": "jd017",
+    "title": "BI Developer",
+    "company": "DataViz Corp",
+    "description": "Create Power BI dashboards and write complex SQL queries to support business decisions.",
+    "required_skills": ["Power BI", "SQL", "Python", "Communication"],
+    "category": "data"
+  },
+  {
+    "id": "jd018",
+    "title": "Cybersecurity Engineer",
+    "company": "DefendIT",
+    "description": "Conduct vulnerability assessments using Burp Suite and Metasploit. Implement SOC processes.",
+    "required_skills": ["Burp Suite", "Metasploit", "OWASP", "SIEM", "SOC", "Penetration Testing"],
+    "category": "security"
+  },
+  {
+    "id": "jd019",
+    "title": "Go Backend Engineer",
+    "company": "SpeedSystems",
+    "description": "Build high-performance microservices in Go with gRPC and deploy on Kubernetes.",
+    "required_skills": ["Go", "gRPC", "Kubernetes", "Docker", "PostgreSQL"],
+    "category": "backend"
+  },
+  {
+    "id": "jd020",
+    "title": "Scrum Master / Agile Coach",
+    "company": "AgileWorks",
+    "description": "Facilitate Scrum ceremonies, remove blockers, and coach teams on Agile best practices.",
+    "required_skills": ["Scrum", "Agile", "Leadership", "Communication", "Project Management"],
+    "category": "management"
+  }
+]

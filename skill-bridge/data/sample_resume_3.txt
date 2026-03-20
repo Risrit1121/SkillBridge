@@ -1,0 +1,37 @@
+Morgan Lee
+morgan.lee@email.com | github.com/morganlee
+
+SUMMARY
+Cybersecurity professional with 3 years of experience in SOC operations, penetration testing, and incident response.
+Seeking a senior security engineer role.
+
+EDUCATION
+B.S. Information Security — Tech Institute, 2021
+
+SKILLS
+Security Tools: Wireshark, Nmap, Metasploit, Burp Suite, SIEM (Splunk)
+Frameworks: OWASP, NIST, Zero Trust
+Languages: Python, Bash, PowerShell
+Cloud: AWS (IAM, Security Hub), Azure (basic)
+OS: Kali Linux, Ubuntu, Windows Server
+
+EXPERIENCE
+SOC Analyst II — SecureDefend Inc. (2021–Present)
+- Monitor SIEM dashboards and triage 50+ alerts daily
+- Conduct penetration testing on internal applications using Burp Suite and Metasploit
+- Implement Zero Trust network segmentation policies
+- Collaborate with DevOps to integrate security into CI/CD pipelines
+
+Security Intern — CyberGuard LLC (Summer 2020)
+- Performed vulnerability scans with Nmap and documented findings
+- Assisted in writing OWASP-compliant secure coding guidelines
+
+PROJECTS
+Home Lab CTF Environment
+- Built a local attack/defense lab using Kali Linux and vulnerable VMs
+- Practiced exploitation and post-exploitation techniques
+
+CERTIFICATIONS
+CompTIA Security+ (2021)
+CEH — Certified Ethical Hacker (2022)
+AWS Security Specialty (2023)
